@@ -22,14 +22,12 @@ To run it, you'll need:
 1. a very basic knowledge of Python
 
 2. some ability to install Python libraries (for legacy reasons,
-I'm using a somewhat non-standard library called
+we're currently using a somewhat non-standard library called
 [scraperwiki](https://pypi.python.org/pypi/scraperwiki) to save the data.)
 
 3. (to read the output) some basic knowledge of SQL and
-[SQLite](https://www.sqlite.org/) (it comes as standard on OS X,
-and I use the excellent [Base 2](https://menial.co.uk/base/) to manage and
-query the files that this script produces.)
+[SQLite](https://www.sqlite.org/)
 
 4. an API Key from the Google Developers site
 (get it here: [Google Developer Console](https://console.developers.google.com/)) -
-add to SET UP. Store this in a file called `api_key` in the same directory as the `youtube_collector.py` script and take care not to share this publicly.
+store this in a file called `api_key` in the same directory as the `youtube_collector.py` script and take care not to share this publicly.)
